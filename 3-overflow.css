@@ -1,0 +1,30 @@
+.box {
+  border: 2px solid red;
+  width: 20 rem;
+  height: 3rem;
+  margin-bottom: 10rem;
+}
+
+.first {
+  overflow: visible; /* default değeri visible'dir */
+}
+
+.second {
+  overflow: hidden;
+}
+
+.third {
+  overflow: scroll; /* yazı kısayken de scroll bar gözükür :S */
+}
+
+.fourth {
+  overflow: auto;
+}
+
+.fifth {
+  overflow: auto;
+}
+
+.par {
+  width: 80rem;
+}
